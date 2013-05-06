@@ -5,6 +5,6 @@
  * Time: 18:22
  * To change this template use File | Settings | File Templates.
  */
-X.Class('core.template', {
-    first_data: 'Andrey'
+X.Class('core.DOM', {
+    second_data: 'Tsarenko'
 });
