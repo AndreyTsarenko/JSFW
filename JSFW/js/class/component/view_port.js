@@ -6,7 +6,23 @@
  * To change this template use File | Settings | File Templates.
  */
 X.Class('component.view_port', {
+    _elements: [
+        'view_port'
+    ],
+    /**
+     *
+     */
     _tpl: [
-        '<div id="{view_port}"></div>'
-    ]
+        '<div id="{view_port_id}" class="{className}"></div>'
+    ],
+    /**
+     *
+     */
+    className: 'View_port',
+    /**
+     *
+     */
+    constructing: function () {
+
+    }
 })

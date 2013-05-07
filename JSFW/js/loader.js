@@ -19,9 +19,6 @@
     };
     window.X = {};
     X.classes = {};
-    X.create = function () {
-
-    }
     var i;
     var css_length = src.css.length;
     var js_length = src.js.length;
@@ -31,6 +28,7 @@
     for (i = 0; i < css_length; i++) {
         var link = document.createElement('link');
         link.type = 'text/css';
+        link.rel = 'stylesheet';
         link.href = '../js/' + src.css[i];
         head.appendChild(link)
     }
@@ -76,6 +74,8 @@
      */
     X.New = function (class_name, constructor) {
         constructor.__proto__ = X.classes[class_name];
+        constructor.constructing && constructor.constructing();
+        X.core.template.object_templating(constructor);
         return constructor;
     };
     /**

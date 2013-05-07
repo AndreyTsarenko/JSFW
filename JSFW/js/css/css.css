@@ -1,3 +1,10 @@
 .Display-none {
     display: none;
 }
+/* v i e w  p o r t */
+.View_port {
+    overflow: hidden;
+    min-height: 300px;
+    min-width: 300px;
+    background-color: gray;
+}
