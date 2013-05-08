@@ -22,7 +22,13 @@ X.Class('component.view_port', {
     /**
      *
      */
-    constructing: function () {
+    _constructing: function () {
+        console.log('here');
+    },
+    /**
+     *
+     */
+    _rendered: function () {
 
     }
 })
