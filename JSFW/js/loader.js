@@ -14,7 +14,8 @@
 
         ],
         css: [
-            'css.css'
+            'css.css',
+            'component/component.css'
         ]
     };
     window.X = function (_function) {

@@ -19,7 +19,7 @@ X.Class('component.resizer', {
         'dot9'
     ],
     _tpl: [
-        '<div id="{root_id}" class="{class_name}">',
+        '<div id="{root_id}" class="{class_name} Invisible">',
             '<div id="{vertices_left_id}" class="{class_name}-dot {class_name}-vertices {class_name}-vertices-left"></div>',
             '<div id="{vertices_right_id}" class="{class_name}-dot {class_name}-vertices {class_name}-vertices-right"></div>',
             '<div id="{vertices_bottom_left_id}" class="{class_name}-dot {class_name}-vertices {class_name}-vertices-bottom-left"></div>',
@@ -33,7 +33,19 @@ X.Class('component.resizer', {
     class_name: 'Resizer',
     _rendered: function () {
         this.set_position_to_render_to_el();
+        this.toggle_resizer();
         this.init_events();
+    },
+    toggle_resizer: function () {
+        this.render_to.setAttribute('tabindex', '1');
+        this.render_to.addEventListener('blur', function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            this.root_el.classList.add('Invisible');
+        }.bind(this), true);
+        this.render_to.addEventListener('dblclick', function () {
+            this.root_el.classList.toggle('Invisible');
+        }.bind(this), true);
     },
     set_position_to_render_to_el: function () {
         var pos_left = this.render_to.offsetLeft;
@@ -41,7 +53,6 @@ X.Class('component.resizer', {
         this.render_to.style.left = pos_left + 'px';
         this.render_to.style.top = pos_top + 'px';
         this.render_to.style.position = 'absolute';
-
     },
     init_events: function () {
         this.vertices_left_el.addEventListener('mousedown', function (e) {
@@ -149,7 +160,7 @@ X.Class('component.resizer', {
         this.sides_left_el.addEventListener('mousedown', function (e) {
             e.stopPropagation();
             e.preventDefault();
-            var start_left = this.render_to.offsetTop;
+            var start_left = this.render_to.offsetLeft;
             var start_width = this.render_to.offsetWidth;
             var move = function (ev) {
                 var differ_x = ev.pageX - e.pageX;
@@ -219,6 +230,24 @@ X.Class('component.resizer', {
                 window.removeEventListener('mouseup', arguments.callee);
                 window.removeEventListener('mousemove', move);
             })
+        }.bind(this));
+        this.root_el.addEventListener('mousedown', function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            var left = this.render_to.offsetLeft;
+            var top = this.render_to.offsetTop;
+            var moving = function (ev) {
+                var diff_y = ev.pageY - e.pageY;
+                var diff_x = ev.pageX - e.pageX;
+                this.render_to.style.top = top + diff_y + 'px';
+                this.render_to.style.left = left + diff_x + 'px';
+            }.bind(this);
+            window.addEventListener('mousemove', moving);
+            window.addEventListener('mouseup', function () {
+                window.removeEventListener('mousemove', moving);
+                window.removeEventListener('mouseup', arguments.callee);
+            })
+
         }.bind(this));
     }
 })
