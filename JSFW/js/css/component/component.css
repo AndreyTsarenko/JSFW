@@ -1,12 +1,13 @@
 /* r e s i z e r */
 .Resizer {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     border: 1px solid black;
     cursor: move;
     background-color: rgba(0, 195, 255, 0.5);
     transition: opacity .5s ease;
+    z-index: 99999999999;
 }
 .Resizer-dot {
     position: absolute;
@@ -60,4 +61,11 @@
     bottom: -4px;
     left: -webkit-calc(50% - 4px);
     cursor: s-resize;
+}
+/* p r o g r e s s  b a r */
+.Progress_bar {
+    width: 100%;
+    height: 100%;
+    background-color: #fd0101;
+    position: absolute;
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resizer component</title>
+    <script src="../../js/loader.js"></script>
+    <style>
+        body {
+            background-color: slategrey;
+        }
+        #container {
+            width: 400px;
+            height: 150px;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div id='container'>
+        <script>
+            X(function () {
+                resizer = X.New('component.resizer', {
+                    dom_id: 'container'
+                });
+                progress_bar = X.New('component.progress_bar', {
+                    dom_id: 'container',
+                    orient: 'vertical'
+                });
+                progress_bar.set_progress_value(14);
+            })
+        </script>
+    </div>
+</body>
+</html>

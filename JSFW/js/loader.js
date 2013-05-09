@@ -10,6 +10,7 @@
         js: [
             'core/DOM.js',
             'core/template.js',
+            'component/progress_bar.js',
             'component/resizer.js'
 
         ],
