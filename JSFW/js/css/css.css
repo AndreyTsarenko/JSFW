@@ -2,9 +2,62 @@
     display: none;
 }
 /* v i e w  p o r t */
-.View_port {
-    overflow: hidden;
-    min-height: 300px;
-    min-width: 300px;
-    background-color: gray;
+.Resizer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.Resizer-dot {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 9px;
+    height: 9px;
+    -webkit-user-select: none;
+}
+.Resizer-vertices {
+   border-radius: 5px;
+}
+.Resizer-vertices-left {
+    left: -4px;
+    top: -4px;
+    cursor: nw-resize;
+}
+.Resizer-vertices-right {
+    right: -4px;
+    top: -4px;
+    cursor: sw-resize;
+}
+.Resizer-vertices-bottom-left {
+    left: -4px;
+    bottom: -4px;
+    cursor: sw-resize;
+}
+.Resizer-vertices-bottom-right {
+    right: -4px;
+    bottom: -4px;
+    cursor: nw-resize;
+}
+.Resizer-sides {
+    border-radius: 2px;
+}
+.Resizer-sides-left {
+    left: -4px;
+    top: -webkit-calc(50% - 4px);
+    cursor: w-resize;
+}
+.Resizer-sides-right {
+    right: -4px;
+    top: -webkit-calc(50% - 4px);
+    cursor: w-resize;
+}
+.Resizer-sides-top {
+    top: -4px;
+    left: -webkit-calc(50% - 4px);;
+    cursor: s-resize;
+}
+.Resizer-sides-bottom {
+    bottom: -4px;
+    left: -webkit-calc(50% - 4px);
+    cursor: s-resize;
 }

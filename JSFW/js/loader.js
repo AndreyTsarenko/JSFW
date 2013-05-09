@@ -10,12 +10,11 @@
         js: [
             'core/DOM.js',
             'core/template.js',
-            'component/audio.js',
-            'component/view_port.js'
+            'component/resizer.js'
 
         ],
         css: [
-            'css/css.css'
+            'css.css'
         ]
     };
     window.X = function (_function) {
@@ -32,19 +31,21 @@
     var i;
     var css_length = src.css.length;
     var js_length = src.js.length;
+    var PATH = document.getElementsByTagName('script');
     var head = document.getElementsByTagName('head')[0];
     var loaded_scripts = 1;
     var to_do = [];
+    PATH = PATH[PATH.length - 1].src.replace('loader.js', '');
     for (i = 0; i < css_length; i++) {
         var link = document.createElement('link');
         link.type = 'text/css';
         link.rel = 'stylesheet';
-        link.href = '../js/' + src.css[i];
+        link.href = PATH +'css/' + src.css[i];
         head.appendChild(link)
     }
     for (i = 0; i < js_length; i++) {
         var script = document.createElement('script');
-        script.src = '../js/class/' + src.js[i];
+        script.src = PATH + 'class/' + src.js[i];
         script.addEventListener('load', function () {
             script.removeEventListener('load', arguments.callee);
             if (loaded_scripts++ == js_length) {
@@ -98,20 +99,7 @@
         return constructor;
 
     };
-    /**
-     *
-     * @param [_function]
-     */
-//    X.do = function (_function) {
-//        var i;
-//        if (_function) {
-//            to_do.push(_function);
-//        } else {
-//            for (i = 0; i < to_do.length; i++) {
-//                to_do[i]();
-//            }
-//        }
-//    }
+
     /**
      *
      */

@@ -15,6 +15,7 @@ X.Class('core.template', {
         var i;
         var elements_ids = {};
         var key;
+        var tmp_object = document.createElement('div');
         object_of_class._tpl = object_of_class._tpl.join('');
         if (object_of_class._elements) {
             for (i = 0; i < object_of_class._elements.length; i++) {
@@ -39,7 +40,8 @@ X.Class('core.template', {
         if (!object_of_class.render_to) {
             object_of_class.render_to = document.body;
         }
-        object_of_class.render_to.innerHTML = object_of_class._tpl;
+        tmp_object.innerHTML = object_of_class._tpl;
+        object_of_class.render_to.appendChild(tmp_object.children[0]);
         X.core.DOM.get_elements_by_id(elements_ids, object_of_class);
     },
     /**
