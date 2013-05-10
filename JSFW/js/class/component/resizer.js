@@ -38,11 +38,6 @@ X.Class('component.resizer', {
     },
     toggle_resizer: function () {
         this.render_to.setAttribute('tabindex', '1');
-        this.render_to.addEventListener('blur', function (e) {
-            e.stopPropagation();
-            e.preventDefault();
-            this.root_el.classList.add('Invisible');
-        }.bind(this), true);
         this.render_to.addEventListener('dblclick', function () {
             this.root_el.classList.toggle('Invisible');
         }.bind(this), true);
