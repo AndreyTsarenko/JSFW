@@ -33,9 +33,11 @@ X.Class('component.progress_bar', {
         this.render_to.addEventListener('mousedown', function (e) {
             e.preventDefault();
             var mouse_move = function (e) {
-                var percent = e.offsetX / this.render_to.offsetWidth;
+                var el_pos = this.render_to.getBoundingClientRect();
+                var offsetX = e.pageX - el_pos.left;
+                var percent = offsetX / el_pos.width;
                 this.set_progress_value(this.max_value * percent);
-                this.value_changed && this.value_changed();
+                this.value_changed && this.value_changed(this.$value);
             }.bind(this);
             mouse_move(e);
             window.addEventListener('mousemove', mouse_move);

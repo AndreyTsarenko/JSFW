@@ -2,30 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFW/html/component/progress_bar.html" afterPath="$PROJECT_DIR$/JSFW/html/component/progress_bar.html" />
+      <change type="MOVED" beforePath="C:\Project\JSFW\JSFW\js\class\component\audio.js" afterPath="$PROJECT_DIR$/JSFW/js/class/component/player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFW/js/css/component/component.css" afterPath="$PROJECT_DIR$/JSFW/js/css/component/component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFW/js/css/css.css" afterPath="$PROJECT_DIR$/JSFW/js/css/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFW/js/loader.js" afterPath="$PROJECT_DIR$/JSFW/js/loader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFW/js/class/component/progress_bar.js" afterPath="$PROJECT_DIR$/JSFW/js/class/component/progress_bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSFW/js/class/component/resizer.js" afterPath="$PROJECT_DIR$/JSFW/js/class/component/resizer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="git.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368203002223" ignored="false" />
+    <file path="/Dummy.txt" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1369225107690" ignored="false" />
     <file path="/index.html" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368001540771" ignored="false" />
     <file path="/ninja.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1367770808730" ignored="false" />
     <file path="/css.css" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368129510415" ignored="false" />
     <file path="/loader.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368086192441" ignored="false" />
     <file path="/oop.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1367773570148" ignored="false" />
-    <file path="/template.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368086715719" ignored="false" />
+    <file path="/template.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368299692001" ignored="false" />
     <file path="/DOM.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1367833188882" ignored="false" />
     <file path="/view_port.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368045480479" ignored="false" />
     <file path="/core.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368041956455" ignored="false" />
-    <file path="/audio.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368043450711" ignored="false" />
-    <file path="/resizer.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368133946533" ignored="false" />
+    <file path="/audio.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368206874580" ignored="false" />
+    <file path="/resizer.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368261194462" ignored="false" />
     <file path="/audio.html" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368083937997" ignored="false" />
     <file path="/resizer.html" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368086815740" ignored="false" />
-    <file path="/component.css" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368137316813" ignored="false" />
-    <file path="/progress_bar.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368205198150" ignored="false" />
+    <file path="/component.css" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368387234989" ignored="false" />
+    <file path="/progress_bar.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368300915775" ignored="false" />
     <file path="/progress_bar.html" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368203518760" ignored="false" />
+    <file path="/player.js" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368386812280" ignored="false" />
+    <file path="/player.html" changelist="8cd02fd2-2f46-4596-8c7e-825ec74bc3c2" time="1368218537521" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,33 +48,22 @@
     <favorites_list name="git" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41590613">
+    <splitter split-orientation="horizontal" split-proportion="0.60157275">
       <split-first>
         <leaf>
           <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JSFW/js/css/css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+                <state line="9" column="1" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="progress_bar.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/progress_bar.js">
+          <file leaf-file-name="player.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/player.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="44" selection-start="585" selection-end="585" vertical-scroll-proportion="0.42713568">
-                  <folding>
-                    <element signature="e#711#1418#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="component.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/JSFW/js/css/component/component.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="69" column="23" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
+                <state line="38" column="6" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.29103726">
                   <folding />
                 </state>
               </provider>
@@ -80,10 +73,28 @@
       </split-first>
       <split-second>
         <leaf>
+          <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/JSFW/html/component/player.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="28" selection-start="238" selection-end="238" vertical-scroll-proportion="0.17970401">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="loader.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JSFW/js/loader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="40" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+                <state line="61" column="6" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JSFW/js/class/core/template.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="36" column="24" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -92,26 +103,44 @@
           <file leaf-file-name="progress_bar.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JSFW/html/component/progress_bar.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="14" selection-start="706" selection-end="706" vertical-scroll-proportion="-17.653847">
+                <state line="24" column="40" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="resizer.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="progress_bar.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/progress_bar.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="74" column="5" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="resizer.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JSFW/html/component/resizer.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="19" selection-start="431" selection-end="529" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="resizer.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/resizer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.30753565">
-                  <folding>
-                    <element signature="e#2375#3606#0" expanded="false" />
-                    <element signature="e#3694#4792#0" expanded="false" />
-                    <element signature="e#4886#6157#0" expanded="false" />
-                    <element signature="e#6252#7220#0" expanded="false" />
-                    <element signature="e#7304#8123#0" expanded="false" />
-                    <element signature="e#8208#8893#0" expanded="false" />
-                    <element signature="e#8976#9797#0" expanded="false" />
-                    <element signature="e#9883#10744#0" expanded="false" />
-                  </folding>
+                <state line="35" column="30" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="component.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/JSFW/js/css/component/component.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="215" column="4" selection-start="4116" selection-end="4116" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -136,22 +165,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/JSFW/js/ninja.js" />
-        <option value="$PROJECT_DIR$/JSFW/js/class/core/oop.js" />
         <option value="$PROJECT_DIR$/JSFW/js/class/core/DOM.js" />
-        <option value="$PROJECT_DIR$/JSFW/js/class/component/audio.js" />
         <option value="$PROJECT_DIR$/JSFW/js/class/core/core.js" />
         <option value="$PROJECT_DIR$/JSFW/html/index.html" />
         <option value="$PROJECT_DIR$/JSFW/js/class/component/view_port.js" />
         <option value="$PROJECT_DIR$/JSFW/html/component/audio.html" />
-        <option value="$PROJECT_DIR$/JSFW/js/class/core/template.js" />
         <option value="$PROJECT_DIR$/JSFW/html/component/resizer.html" />
-        <option value="$PROJECT_DIR$/JSFW/js/css/css.css" />
-        <option value="$PROJECT_DIR$/JSFW/js/loader.js" />
-        <option value="$PROJECT_DIR$/JSFW/js/css/component/component.css" />
         <option value="$PROJECT_DIR$/JSFW/html/component/progress_bar.html" />
+        <option value="$PROJECT_DIR$/JSFW/js/class/component/audio.js" />
+        <option value="$PROJECT_DIR$/JSFW/js/loader.js" />
         <option value="$PROJECT_DIR$/JSFW/js/class/component/resizer.js" />
+        <option value="$PROJECT_DIR$/JSFW/js/class/core/template.js" />
         <option value="$PROJECT_DIR$/JSFW/js/class/component/progress_bar.js" />
+        <option value="$PROJECT_DIR$/JSFW/js/css/css.css" />
+        <option value="$PROJECT_DIR$/JSFW/html/component/player.html" />
+        <option value="$PROJECT_DIR$/JSFW/js/css/component/component.css" />
+        <option value="$PROJECT_DIR$/JSFW/js/class/component/player.js" />
       </list>
     </option>
   </component>
@@ -188,7 +217,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,28 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="git" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSFW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSFW" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,6 +385,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,7 +438,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1814301" sideWeight="0.6709109" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18996799" sideWeight="0.6709109" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -509,11 +516,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JSFW/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/js/loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="46" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
@@ -523,7 +525,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/js/class/core/template.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" />
+        <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/js/css/css.css">
@@ -533,18 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/audio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSFW/js/class/core/template.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/js/class/core/DOM.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="3" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
@@ -552,9 +544,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3686" column="0" selection-start="67109" selection-end="67109" vertical-scroll-proportion="0.33266333">
-          <folding />
-        </state>
+        <state line="3686" column="0" selection-start="67109" selection-end="67109" vertical-scroll-proportion="0.33266333" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/html/index.html">
@@ -564,59 +554,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/html/component/resizer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.03516029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSFW/js/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSFW/js/css/component/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="23" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSFW/html/component/progress_bar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="14" selection-start="706" selection-end="706" vertical-scroll-proportion="-17.653847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSFW/js/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+        <state line="22" column="19" selection-start="431" selection-end="529" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/resizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1804" selection-end="1804" vertical-scroll-proportion="0.30753565">
-          <folding>
-            <element signature="e#2375#3606#0" expanded="false" />
-            <element signature="e#3694#4792#0" expanded="false" />
-            <element signature="e#4886#6157#0" expanded="false" />
-            <element signature="e#6252#7220#0" expanded="false" />
-            <element signature="e#7304#8123#0" expanded="false" />
-            <element signature="e#8208#8893#0" expanded="false" />
-            <element signature="e#8976#9797#0" expanded="false" />
-            <element signature="e#9883#10744#0" expanded="false" />
-          </folding>
+        <state line="35" column="30" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSFW/html/component/progress_bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="40" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSFW/js/class/core/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="24" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/progress_bar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="585" selection-end="585" vertical-scroll-proportion="0.42713568">
-          <folding>
-            <element signature="e#711#1418#0" expanded="false" />
-          </folding>
+        <state line="74" column="5" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSFW/js/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSFW/js/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="6" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSFW/js/css/component/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="4" selection-start="4116" selection-end="4116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSFW/html/component/player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="238" selection-end="238" vertical-scroll-proportion="0.17970401">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSFW/js/class/component/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="6" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.29103726">
+          <folding />
         </state>
       </provider>
     </entry>
