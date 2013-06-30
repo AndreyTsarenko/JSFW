@@ -100,7 +100,6 @@
         constructor._tpl && X.core.template.object_templating(constructor);
         constructor._rendered && constructor._rendered();
         return constructor;
-
     };
 
     /**
